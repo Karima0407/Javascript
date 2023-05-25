@@ -16,10 +16,19 @@
 // document.write(PAYS);
 // var unChiffre="12";
 // console.log(unChiffre)
-var monPrenom;
-monPrenom = prompt();
-document.write(monPrenom);
-console.log(monPrenom);
-alert(monPrenom);
+// var monPrenom;
+// monPrenom = prompt();
+// document.write(monPrenom);
+// console.log(monPrenom);
+// alert(monPrenom);
 // Différentes types de fonctions:
 // 1-une fonction avec aumoins
+var nb1 = prompt();
+nb1 = parseInt(nb1);
+console.log(typeof nb1);
+
+var nb2=7;
+var nb3=nb1%nb2;
+document.write(nb3+ "<br>");
+nb3+=nb2;
+document.write(nb3);

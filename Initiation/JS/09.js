@@ -3,7 +3,7 @@
 // var arr = Array(element0, element1, ..., elementN);
 // var arr = [element0, element1, ..., elementN];
 
-var fruits = ['Apple', 'Banana'];
+var fruits = ["Apple", "Banana"];
 console.log(fruits.length);
 // 2
 
@@ -14,15 +14,15 @@ var last = fruits[fruits.length - 1];
 // Banana
 
 //Boucler sur un tableau
-var couleurs = ['rouge', 'vert', 'bleu'];
+var couleurs = ["rouge", "vert", "bleu"];
 for (var i = 0; i < couleurs.length; i++) {
-    console.log(couleurs[i]);
+  console.log(couleurs[i]);
 }
 
 // AU LIEU DE MODIFIER LE TABLEAU ON EN CREE UN AUTRE IDENTIQUE
 
 //Ajouter à la fin du tableau
-var newLength = fruits.push('Orange');
+var newLength = fruits.push("Orange");
 // ["Apple", "Banana", "Orange"]
 
 //Supprimer le dernier élément du tableau
@@ -34,15 +34,15 @@ var first = fruits.shift(); // supprime Apple (au début)
 // ["Banana"];
 
 //Ajouter au début du tableau
-var newLength = fruits.unshift('Strawberry') // ajoute au début
+var newLength = fruits.unshift("Strawberry"); // ajoute au début
 // ["Strawberry", "Banana"];
 
 //Trouver l'index d'un élément dans le tableau
-fruits.push('Mango');
+fruits.push("Mango");
 // ["Strawberry", "Banana", "Mango"]
 
 // Créer un tableau
-var pos = fruits.indexOf('Banana');
+var pos = fruits.indexOf("Banana");
 // 1
 
 //Supprimer un élément par son index
@@ -50,11 +50,12 @@ var removedItem = fruits.splice(pos, 1); // supprime 1 élément à la position 
 // ["Strawberry", "Mango"]
 
 //Supprimer des éléments à partir d'un index
-var vegetables = ['Cabbage', 'Turnip', 'Radish', 'Carrot'];
+var vegetables = ["Cabbage", "Turnip", "Radish", "Carrot"];
 console.log(vegetables);
 // ["Cabbage", "Turnip", "Radish", "Carrot"]
 
-var pos = 1, n = 2;
+var pos = 1,
+  n = 2;
 var removedItems = vegetables.splice(pos, n);
 // n définit le nombre d'éléments à supprimer,
 // à partir de la position pos

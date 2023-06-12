@@ -218,10 +218,43 @@
 // console.log('nombre1 après inversion: '+ nombre1);
 // console.log('nombre2 après inversion:'+ nombre2);
 
-// exercice2:
-var num = prompt("Indiquez votre age : ");
+// // exercice2:
+// var num = prompt("Indiquez votre age : ");
 
-while (num <= 3 || num >= 120 || isNaN(num)) {
-  num = prompt("Indiquez votre age : ");
+// while (num <= 3 || num >= 120 || isNaN(num)) {
+//   num = prompt("Indiquez votre age : ");
+// }
+// var majoriteFR = 18;
+
+
+
+
+// Enoncée:1/ Déclarer 2 variables de type tableau,
+// le premier : prenom
+// le deuxième : adjectif
+
+// 2/ à partir d'un formulaire, remplir le premier.
+// Tant que l'on saisi 12 prénoms, le formulaire s'affiche.
+// Idem pour le deuxième avec 12 adjectifs.
+
+
+var prenom=[];
+// var adjetif=[];
+var PrenomForm;
+while(prenom.length<=12 ){
+ PrenomForm=prompt('Remplissez votre tableau', "prénom");
+  prenom.push(PrenomForm);
+
 }
-var majoriteFR = 18;
+console.log(prenom);
+document.write('prenom=:'+ prenom);
+
+var adjectif = [];
+var AdjectifForm
+
+while(adjectif.length<=12){
+   AdjectifForm = prompt("Remplissez votre tableau des adjectifs", "adjectif");
+  adjectif.push(PrenomForm);
+
+}
+console.log(adjectif);

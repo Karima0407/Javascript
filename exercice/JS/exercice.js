@@ -226,9 +226,6 @@
 // }
 // var majoriteFR = 18;
 
-
-
-
 // Enoncée:1/ Déclarer 2 variables de type tableau,
 // le premier : prenom
 // le deuxième : adjectif
@@ -237,24 +234,21 @@
 // Tant que l'on saisi 12 prénoms, le formulaire s'affiche.
 // Idem pour le deuxième avec 12 adjectifs.
 
-
-var prenom=[];
+var prenom = [];
 // var adjetif=[];
 var PrenomForm;
-while(prenom.length<=12 ){
- PrenomForm=prompt('Remplissez votre tableau', "prénom");
+while (prenom.length <= 12) {
+  PrenomForm = prompt("Remplissez votre tableau", "prénom");
   prenom.push(PrenomForm);
-
 }
 console.log(prenom);
-document.write('prenom=:'+ prenom);
+document.write("prenom=:" + prenom);
 
 var adjectif = [];
-var AdjectifForm
+var AdjectifForm;
 
-while(adjectif.length<=12){
-   AdjectifForm = prompt("Remplissez votre tableau des adjectifs", "adjectif");
+while (adjectif.length <= 12) {
+  AdjectifForm = prompt("Remplissez votre tableau des adjectifs", "adjectif");
   adjectif.push(PrenomForm);
-
 }
 console.log(adjectif);

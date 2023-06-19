@@ -234,21 +234,63 @@
 // Tant que l'on saisi 12 prénoms, le formulaire s'affiche.
 // Idem pour le deuxième avec 12 adjectifs.
 
-var prenom = [];
-// var adjetif=[];
-var PrenomForm;
-while (prenom.length <= 12) {
-  PrenomForm = prompt("Remplissez votre tableau", "prénom");
-  prenom.push(PrenomForm);
-}
-console.log(prenom);
-document.write("prenom=:" + prenom);
+// var prenom = [];
+// // var adjetif=[];
+// var PrenomForm;
+// while (prenom.length <= 12) {
+//   PrenomForm = prompt("Remplissez votre tableau", "prénom");
+//   prenom.push(PrenomForm);
+// }
+// console.log(prenom);
+// document.write("prenom=:" + prenom);
 
-var adjectif = [];
-var AdjectifForm;
+// var adjectif = [];
+// var AdjectifForm;
 
-while (adjectif.length <= 12) {
-  AdjectifForm = prompt("Remplissez votre tableau des adjectifs", "adjectif");
-  adjectif.push(PrenomForm);
-}
-console.log(adjectif);
+// while (adjectif.length <= 12) {
+//   AdjectifForm = prompt("Remplissez votre tableau des adjectifs", "adjectif");
+//   adjectif.push(PrenomForm);
+// }
+// console.log(adjectif);
+
+
+
+// Ecrivez un programme qui demande une heure à un utilisateur sous la forme de trois informations (heures, minutes, secondes).
+
+// il affiche ensuite l'heure qu'il sera une seconde plus tard.
+
+// Les erreurs de saisie doivent être gérées.
+
+// Ce programme est moins simple qu'il en a l'air : >
+// 14h17m59s => 14h18m0s
+// 6h59m59s => 7h0m0s
+// 23h59m59s => 0h0m0s (minuit)
+// Résultat :
+// var heure = prompt("Saisissez une heure");
+// var minute = prompt("Saisissez une minute");
+// var seconde = prompt("Saisissez une seconde");
+
+// if (
+//   heure >= 0 &&
+//   heure <= 23 &&
+//   minute >= 0 &&
+//   minute <= 59 &&
+//   seconde >= 0 &&
+//   seconde <= 59
+// ) {
+//   seconde++;
+//   if (seconde === 60) {
+//     seconde = 0;
+//     minute++;
+//   }
+//   if (minute === 60) {
+//     minute = 0;
+//     heure++;
+//   }
+//   if (heure === 24) {
+//     heure = 0;
+//   }
+//   document.write("l'heure est :"+heure+" h"+minute+ " mn"+seconde+"s");
+  
+// }
+

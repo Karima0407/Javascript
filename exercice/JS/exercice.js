@@ -293,4 +293,16 @@
 //   document.write("l'heure est :"+heure+" h"+minute+ " mn"+seconde+"s");
   
 // }
+// var tour=0;
+// while(tour<10){
+//     tour++;
+//     alert("C'est le tour n: "+ tour);
+// }
+// var nombreDeTours=prompt("Saisissez le nombre tours");
+// for (i=1;i<=nombreDeTours;i++){
+//     document.write("<p>tour n°"+i+"</p>");
+// }
+
+var Rahim = prompt("Saisissez le nombre tours");
+document.write("C'est le nombre de tours n"+ Rahim);
 

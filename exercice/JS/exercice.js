@@ -303,6 +303,20 @@
 //     document.write("<p>tour n°"+i+"</p>");
 // }
 
-var Rahim = prompt("Saisissez le nombre tours");
-document.write("C'est le nombre de tours n"+ Rahim);
-
+// var Rahim = prompt("Saisissez le nombre tours");
+// document.write("C'est le nombre de tours n"+ Rahim);
+var nombre=prompt("saisissez un nombre");
+// j=0;
+while((nombre>50)&&(nombre<100)){
+   
+//    nombre++;
+alert("Le nombre est bien entre 50 et 100");
+  
+}
+//   document.write(nombre);
+if ((nombre>50)&&(nombre<100)){
+    alert("Le nombre est bien entre 50 et 100");
+}
+else {
+    alert("le nombre est incorrect")
+}

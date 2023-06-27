@@ -253,8 +253,6 @@
 // }
 // console.log(adjectif);
 
-
-
 // Ecrivez un programme qui demande une heure à un utilisateur sous la forme de trois informations (heures, minutes, secondes).
 
 // il affiche ensuite l'heure qu'il sera une seconde plus tard.
@@ -291,7 +289,7 @@
 //     heure = 0;
 //   }
 //   document.write("l'heure est :"+heure+" h"+minute+ " mn"+seconde+"s");
-  
+
 // }
 // var tour=0;
 // while(tour<10){
@@ -305,18 +303,67 @@
 
 // var Rahim = prompt("Saisissez le nombre tours");
 // document.write("C'est le nombre de tours n"+ Rahim);
-var nombre=prompt("saisissez un nombre");
+// var nombre=prompt("saisissez un nombre");
 // j=0;
-while((nombre>50)&&(nombre<100)){
-   
-//    nombre++;
-alert("Le nombre est bien entre 50 et 100");
-  
-}
-//   document.write(nombre);
-if ((nombre>50)&&(nombre<100)){
-    alert("Le nombre est bien entre 50 et 100");
-}
-else {
-    alert("le nombre est incorrect")
+// while((nombre>50)&&(nombre<100)){
+
+// //    nombre++;
+// alert("Le nombre est bien entre 50 et 100");
+
+// }
+// //   document.write(nombre);
+// if ((nombre>50)&&(nombre<100)){
+//     alert("Le nombre est bien entre 50 et 100");
+// }
+// else {
+//     alert("le nombre est incorrect")
+// }
+
+// exercice 16 (ni oui ni non)
+// var jouet=prompt("Entrez une phrase");
+
+// var jouet = prompt("Allez on joue ni oui ni non!");
+// jouet = jouet.toLowerCase();
+// switch (jouet) {
+//   case "oui":
+//     alert("Non tu es perdu");
+//     break;
+
+//   case "non":
+//     alert("Non tu es perdu");
+//     break;
+
+//   default:
+//     prompt("Allez on joue");
+
+// }
+
+// var jouet=prompt("Allez on joue ni oui ni non");
+// if ((jouet==="oui")&&(jouet==="non") ){
+//     alert("Non tu es perdu");
+// }
+// else{
+//     prompt=('Allez pn joue');
+// }
+
+// exercice18:
+
+// for (i = 1; i <= 100; i++) {
+//   // document.write("<p> " + i + "</p>");
+//   if (i % 3 === 0) {
+//     document.write("<p> " + i + " : " + "Fizz</p>");
+//   } else if (i % 5 === 0 && i % 3 !== 0) {
+//     document.write("<p> " + i + " : " + "Buzz</p>");
+//   } 
+// }
+
+for (i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    document.write("<p> " + i + " : " + "FizzBuzz</p>");
+  }
+  else if (i % 5 === 0 && i % 3 !== 0) {
+    document.write("<p> " + i + " : " + "Buzz</p>");
+  } else if (i % 3 === 0) {
+    document.write("<p> " + i + " : " + "Fizz</p>");
+  }
 }

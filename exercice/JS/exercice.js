@@ -367,3 +367,8 @@ for (i = 1; i <= 100; i++) {
     document.write("<p> " + i + " : " + "Fizz</p>");
   }
 }
+
+
+var note=20;
+var resultat=(note>=15) ? "bien":"mauvais";
+console.log(resultat);

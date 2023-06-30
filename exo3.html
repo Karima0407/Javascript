@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercice DOM</title>
+    <style>
+        .red{
+            color: red;
+        }
+        .blue{
+            color: blue;
+        }
+        .bouton{
+            padding: 10px;
+            border-radius: 15px;
+            border: solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 class="title">Titre de la page</h1>
+        <p class="content">Contenu de la page</p>
+        <button id="btn">Cliquez ici</button>
+    </div>
+
+ 
+
+    <script>
+        let madiv=document.querySelector(".title");
+        // let madiv2=document.getElementsByClassName("title");
+        // console.log(madiv2);===> renvoie un tableau 
+        madiv.classList.add('red');
+        console.log(madiv);
+        
+        let madiv2=document.querySelector(".content");
+        madiv2.classList.add('blue');
+
+    
+
+    </script>
+</body>
+
+ 
+
+</html>

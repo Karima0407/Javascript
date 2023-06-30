@@ -372,3 +372,45 @@ for (i = 1; i <= 100; i++) {
 var note=20;
 var resultat=(note>=15) ? "bien":"mauvais";
 console.log(resultat);
+
+
+// exercice poue les classes:
+// 1) 
+class Cercle{
+constructor(rayon){
+  this.rayon=rayon;
+}
+calculer(){
+  console.log(
+    "la surface de la cercle" + Math.PI * (this.rayon * this.rayon)
+  );
+}
+}
+let cercle1=new Cercle(20);
+cercle1.calculer();
+
+//2):
+
+class CompteBancaire{
+  constructor(titulaire,solde){
+    this.titulaire=titulaire;
+    this.solde=solde;
+  }
+  deposer(mantant1){
+    this.solde=this.solde+mantant1;
+
+  }
+  retirer(mantant2){
+this.solde=this.solde-mantant2;
+  }
+  afficherSolde(){
+// solde=(this.solde+mantant1)-mantant2;
+console.log (this.solde);
+  }
+}
+let CompteBancaire1=new CompteBancaire("Abram",5);
+CompteBancaire1.deposer(10);
+CompteBancaire1.retirer(7);
+
+CompteBancaire1.afficherSolde();
+

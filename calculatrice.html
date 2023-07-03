@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex1{
+            display: flex;
+           
+        }
+        .oper{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            margin: 15px;
+        }
+        button{
+            margin: 5px;
+        }
+        .egal{
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <script src="exercice/JS/calculatrice.js"></script>
+    <div class="flex1">
+      <div><input type="text"name="nomb"id="num1" placeholder="nombre1"></div> 
+       <div class="oper">
+        <button id="plus">
+            +
+        </button>
+        <button id="moins">
+            -
+        </button>
+        <button id="multiplication">*</button>
+        <button id="division">/</button>
+       </div>
+       <div><input type="text"name="nomb"id="num2" placeholder="nombre2"></div>
+      <div> <button id="egale" class="egal">=</button></div>
+       <div><input type="text"name="nomb"id="resultat" placeholder="resultat"></div>
+    </div>
+</body>
+</html>
